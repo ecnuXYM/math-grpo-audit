@@ -1,0 +1,88 @@
+{
+  "scope": "offline reward-design ablation; not GRPO training",
+  "label": "42",
+  "round_descriptions": {
+    "round1": "accuracy + 0.05 * unconditional_format_pass",
+    "round2": "accuracy + 0.05 * unconditional_format_pass - 0.15 * severity + 0.1 * length",
+    "round3": "gated_accuracy(gamma=3) + 0.05 * correctness_gated_format - 0.15 * severity + 0.1 * length",
+    "round4": "symmetric_gated_accuracy(gamma=1.5) + 0.05 * correctness_gated_format - 0.15 * severity + 0.1 * length",
+    "round5": "current project raw reward: gamma=3, wrong_base_penalty=-0.05, absorbed severity"
+  },
+  "case_count": 8,
+  "round_summaries": [
+    {
+      "round": "round1",
+      "description": "accuracy + 0.05 * unconditional_format_pass",
+      "wrong_answer_positive_count": 2,
+      "avg_gap_best_honest_minus_risk": 1.0,
+      "best_honest_raw_reward": 1.05,
+      "wrong_formatted_reward": 0.05,
+      "hack_wrong_formatted_reward": 0.05,
+      "best_beats_suspicious": false,
+      "best_beats_low_information": false,
+      "best_beats_repetition": false
+    },
+    {
+      "round": "round2",
+      "description": "accuracy + 0.05 * unconditional_format_pass - 0.15 * severity + 0.1 * length",
+      "wrong_answer_positive_count": 1,
+      "avg_gap_best_honest_minus_risk": 1.09375,
+      "best_honest_raw_reward": 1.05,
+      "wrong_formatted_reward": 0.012500000000000004,
+      "hack_wrong_formatted_reward": -0.09999999999999999,
+      "best_beats_suspicious": true,
+      "best_beats_low_information": true,
+      "best_beats_repetition": true
+    },
+    {
+      "round": "round3",
+      "description": "gated_accuracy(gamma=3) + 0.05 * correctness_gated_format - 0.15 * severity + 0.1 * length",
+      "wrong_answer_positive_count": 0,
+      "avg_gap_best_honest_minus_risk": 1.41015625,
+      "best_honest_raw_reward": 1.05,
+      "wrong_formatted_reward": -0.0578125,
+      "hack_wrong_formatted_reward": -0.6625,
+      "best_beats_suspicious": true,
+      "best_beats_low_information": true,
+      "best_beats_repetition": true
+    },
+    {
+      "round": "round4",
+      "description": "symmetric_gated_accuracy(gamma=1.5) + 0.05 * correctness_gated_format - 0.15 * severity + 0.1 * length",
+      "wrong_answer_positive_count": 0,
+      "avg_gap_best_honest_minus_risk": 1.4375,
+      "best_honest_raw_reward": 1.05,
+      "wrong_formatted_reward": -0.11249999999999999,
+      "hack_wrong_formatted_reward": -0.6625,
+      "best_beats_suspicious": true,
+      "best_beats_low_information": true,
+      "best_beats_repetition": true
+    },
+    {
+      "round": "round5",
+      "description": "current project raw reward: gamma=3, wrong_base_penalty=-0.05, absorbed severity",
+      "wrong_answer_positive_count": 0,
+      "avg_gap_best_honest_minus_risk": 1.36640625,
+      "best_honest_raw_reward": 1.05,
+      "wrong_formatted_reward": -0.0703125,
+      "hack_wrong_formatted_reward": -0.5625,
+      "best_beats_suspicious": true,
+      "best_beats_low_information": true,
+      "best_beats_repetition": true
+    }
+  ],
+  "round5_final_safety_group": {
+    "best_honest": 0.9109375000000001,
+    "wrong_formatted": -0.209375,
+    "hack_wrong_formatted": -0.7015625
+  },
+  "checks": {
+    "round1_exposes_wrong_formatted_positive": true,
+    "round2_exposes_wrong_formatted_positive": true,
+    "round3_blocks_wrong_formatted_positive": true,
+    "round4_blocks_wrong_formatted_positive": true,
+    "round5_blocks_wrong_formatted_positive": true,
+    "round5_nonpositive_constraint_holds": true
+  },
+  "all_checks_passed": true
+}

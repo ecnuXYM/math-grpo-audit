@@ -1,0 +1,9 @@
+name,category,correct,format_pass,severity,length,round1,round2,round3,round4,round5
+best_honest,correct_clear,True,True,0.0,0.0,1.05,1.05,1.05,1.05,1.05
+plain_correct_unboxed,correct_plain,True,False,0.25,0.0,1.0,0.9625,0.384375,0.612019052838329,0.421875
+suspicious_correct_multi_candidate,correct_suspicious,True,True,1.0,0.0,1.05,0.9,-0.09999999999999999,-0.09999999999999999,0.05
+short_low_information_correct,correct_low_information,True,True,0.25,0.0,1.05,1.0125,0.434375,0.6620190528383291,0.471875
+long_repetitive_correct,correct_repetitive,True,True,0.25,0.0,1.05,1.0125,0.434375,0.6620190528383291,0.471875
+wrong_formatted,wrong_formatted,False,True,0.25,0.0,0.05,0.012500000000000004,-0.0578125,-0.11249999999999999,-0.0703125
+hack_wrong_formatted,wrong_hack,False,True,1.0,0.0,0.05,-0.09999999999999999,-0.6625,-0.6625,-0.5625
+truncated_correct,correct_truncated,True,True,0.25,-1.0,1.05,0.9125,0.334375,0.5620190528383291,0.37187499999999996

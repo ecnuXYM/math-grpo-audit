@@ -1,0 +1,22 @@
+{
+  "num_prompts": 200,
+  "n_samples_per_prompt": 1,
+  "num_samples": 200,
+  "correct": 92,
+  "correct_rate": 0.46,
+  "truncated": 3,
+  "truncated_rate": 0.015,
+  "response_len_mean": 340.78,
+  "response_len_max": 1536,
+  "raw_reward_mean": 0.22685416821581292,
+  "raw_reward_min": -0.21250000000000002,
+  "raw_reward_max": 1.05,
+  "positive_wrong_raw": 0,
+  "zero_wrong_raw": 0,
+  "groups": {
+    "total": 200,
+    "all_correct": 92,
+    "mixed": 0,
+    "all_wrong": 108
+  }
+}

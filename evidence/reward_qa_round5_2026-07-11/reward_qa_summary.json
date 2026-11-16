@@ -1,0 +1,26 @@
+{
+  "label": "42",
+  "config": {
+    "round_name": "round5",
+    "gamma": 3.0,
+    "alpha": 0.5,
+    "wrong_base_penalty": -0.05,
+    "format_weight": 0.05,
+    "anti_hack_weight": 0.15,
+    "length_weight": 0.1,
+    "anti_hack_mode": "absorbed"
+  },
+  "case_count": 8,
+  "wrong_answer_positive_count": 0,
+  "checks": {
+    "wrong_formatted_nonpositive": true,
+    "hack_wrong_formatted_nonpositive": true,
+    "best_honest_beats_plain_correct": true,
+    "best_honest_beats_suspicious_correct": true,
+    "best_honest_beats_short_low_information": true,
+    "best_honest_beats_repetitive": true,
+    "suspicious_correct_beats_wrong_formatted": true,
+    "truncated_correct_below_best_honest": true
+  },
+  "all_checks_passed": true
+}

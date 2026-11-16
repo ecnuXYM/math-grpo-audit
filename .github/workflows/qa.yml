@@ -1,0 +1,14 @@
+name: CPU reward checks
+on: [push, pull_request]
+jobs:
+  reward-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m own.scripts.test_reward_rounds --skip-rollout
+      - run: python -m own.scripts.run_reward_qa --output-dir outputs/qa
+      - run: python -m own.scripts.run_reward_round_comparison --output-dir outputs/comparison
+      - run: python -m own.scripts.summarize_eval600

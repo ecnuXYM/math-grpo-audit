@@ -1,0 +1,215 @@
+{
+  "prepared_on": "2026-11-16",
+  "files": [
+    {
+      "path": ".github/workflows/qa.yml",
+      "bytes": 515,
+      "sha256": "5ad48f8551e6b0e914b6dbde0492545f4a02901279a090cca28ac4e4286ac186"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 226,
+      "sha256": "7dfab377705400caf1e56239aa7aab922cf2c7576585aed35de5e45c99a1927b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4219,
+      "sha256": "b4d8ab10b717b996cc1b6e02f8dec083bc2aacedcdf111f40bab81efb1087d56"
+    },
+    {
+      "path": "docs/04_data_and_experiment_decisions.md",
+      "bytes": 8448,
+      "sha256": "5e5c2f3719f2eb4c43ab991d6f162050e0b28d7c7773abd4d86b231afe153936"
+    },
+    {
+      "path": "docs/20_reward_qa_experiment.md",
+      "bytes": 5700,
+      "sha256": "44d2c146059494a0c1891bf6e5d153c933c61625a66aa69a4adfbe70cafb02bc"
+    },
+    {
+      "path": "docs/21_reward_round1_to_round5_comparison.md",
+      "bytes": 7454,
+      "sha256": "61327b9a975d72c128193b31fce85849f8c9ffd7c5493e1263824723f28b3226"
+    },
+    {
+      "path": "docs/EXPERIMENTS.md",
+      "bytes": 1497,
+      "sha256": "ec9c1b5ebf14fb07ce030a336a18eeeb84a7cf4fa5b42a7fdca1f5931ef7f548"
+    },
+    {
+      "path": "docs/REPRODUCE.md",
+      "bytes": 1428,
+      "sha256": "4f7942fa4ed5db1c293c236a656cffe9bd09b876bfe7ec775f6edabeb5243c71"
+    },
+    {
+      "path": "evidence/reward_qa_round5_2026-07-11/reward_qa_cases.csv",
+      "bytes": 2012,
+      "sha256": "7282eb64cd562ec3635947fa153ad3f1cc1f933556a617d8dcbed525d157e768"
+    },
+    {
+      "path": "evidence/reward_qa_round5_2026-07-11/reward_qa_summary.json",
+      "bytes": 734,
+      "sha256": "661f5118e236d909f509436657936a30ee0f630c38bb8390dffb514e75df1788"
+    },
+    {
+      "path": "evidence/reward_round_comparison_2026-07-11/round_comparison_cases.csv",
+      "bytes": 965,
+      "sha256": "0151852c841f3342d91ae2ff9857de45dd9b3653c6cb35738138e3defc8f9dcd"
+    },
+    {
+      "path": "evidence/reward_round_comparison_2026-07-11/round_comparison_summary.json",
+      "bytes": 3543,
+      "sha256": "7d16bb2cd35f774d973f82c0c582119e4500639dda2bd355a5d756b7cdc6e811"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train-l3_4-core-clean-eval200-seed4040-before-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 466,
+      "sha256": "b938c818ec14a0cec297f25bb26f72a8abc47415fdc0601c0ac04ff2f07e5acf"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train1000-l3_4-core-clean-eval200-seed4040-after-100rollout-clean4040-from-save10-iter49-iter99-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 477,
+      "sha256": "b851b86b5563a903f896d337e86b9e86c2d8163d7ef7a20c344c74301722feb7"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train1000-l3_4-core-clean-eval200-seed4040-after-50rollout-clean4040-save10-iter49-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 491,
+      "sha256": "9f42dafb661ae359da97b1052ef1b2a82ed2d0a2b83ed2c50a320ff73142bc8f"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train1000-l3_4-core-heldout200-seed2026-base-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 479,
+      "sha256": "b3177c49de440ba0527602aa2cfa705e6c21919e83e0c5b347dc6fff732be7e5"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train1000-l3_4-core-heldout200-seed2026-cont-iter99-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 477,
+      "sha256": "014ef992b60fc922cf3c36bec4d64b90932efeab230be6700e475f2d485ca825"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train1000-l3_4-core-heldout200-seed2026-save10-iter49-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 463,
+      "sha256": "d2d16b7dc297ebf756207857de3717438529aff8262d152c84951b1ebddfb159"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train1000-l3_4-core-heldout200-seed3030-base-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 479,
+      "sha256": "7dbf80914457a9016f977afb95f62e3dfc82e55f42f8dc327753862b8b9254a2"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train1000-l3_4-core-heldout200-seed3030-cont-iter99-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 477,
+      "sha256": "fb4fee69cfb4ec961cb9b504cf937bb4d14839bc3f3f078dcecf692b62abb4e4"
+    },
+    {
+      "path": "evidence/server_eval_summaries/qwen2.5-1.5B-math-train1000-l3_4-core-heldout200-seed3030-save10-iter49-len1536-greedy-recomputed-latest-boundaryfix/summary.json",
+      "bytes": 477,
+      "sha256": "0743274dafb7cac58216af619f44f5708a100fd3356532d2712a69816c7e1f72"
+    },
+    {
+      "path": "own/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "own/reward_rounds/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "own/reward_rounds/answer_utils.py",
+      "bytes": 15120,
+      "sha256": "5319129ad90c4a065d0bcb4ba97fcb6d205b08f60a656e1883f49076dc59273f"
+    },
+    {
+      "path": "own/reward_rounds/core.py",
+      "bytes": 7822,
+      "sha256": "19326b0cd04e1b53adc90c8dd91865e4adaecad6ce87b0c16f9cc2aa81da6122"
+    },
+    {
+      "path": "own/reward_rounds/qa_cases.py",
+      "bytes": 2852,
+      "sha256": "22ac5efd7b4566dc17c10266936ac1b7e6168cb1145ba22625c8c7a804cb3665"
+    },
+    {
+      "path": "own/scripts/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "own/scripts/convert_math_to_slime_jsonl.py",
+      "bytes": 2708,
+      "sha256": "551a996a9f7e3124551b65b0456bdf0dc3dc4706095bd251a9011013fdf6e410"
+    },
+    {
+      "path": "own/scripts/create_math_train_eval_split.py",
+      "bytes": 3565,
+      "sha256": "b5d0537470cff09840d1789e265edb2b43ac867e017138440f973c19c1017986"
+    },
+    {
+      "path": "own/scripts/create_simple_math_smoke_data.py",
+      "bytes": 4162,
+      "sha256": "73ea187a08c808ef7f71c5db4c9bf6cf9ec634b2dd2def5970f81e3e23931550"
+    },
+    {
+      "path": "own/scripts/demo.py",
+      "bytes": 681,
+      "sha256": "2947a7187845e70a28f71fed3d972558864f79821df1b33507baaf6d27cb0028"
+    },
+    {
+      "path": "own/scripts/eval_dapo_hf.py",
+      "bytes": 11254,
+      "sha256": "b6afc25d3300ec7086b4b7d1a9ff5eb67583d07c79f3a1bf1550aa56c38146dd"
+    },
+    {
+      "path": "own/scripts/inspect_round_rollout.py",
+      "bytes": 9162,
+      "sha256": "0b5e1fcb38760b0f6280a34aa83f4ca92e28f364f493454a453e390030a93e19"
+    },
+    {
+      "path": "own/scripts/recompute_eval_jsonl.py",
+      "bytes": 5902,
+      "sha256": "1493e85910d72f4270d22635f7a96fed5991043c520fb3a077c609c1537d612a"
+    },
+    {
+      "path": "own/scripts/run-qwen2.5-1.5B-round-smoke.sh",
+      "bytes": 6121,
+      "sha256": "69071da8f02b1ee895807ff9aac52d56952bd70bd549283eff3815b525fdc5b1"
+    },
+    {
+      "path": "own/scripts/run_reward_qa.py",
+      "bytes": 4367,
+      "sha256": "f3f0665490c792cff70c9db18cf56f62890b3a10e46a4910a5ae05faa08f74e8"
+    },
+    {
+      "path": "own/scripts/run_reward_round_comparison.py",
+      "bytes": 7158,
+      "sha256": "f8e9ea4875bf9e90ab714ad8a0ede4d2c99577760c681bc7561c2cd6f50b0368"
+    },
+    {
+      "path": "own/scripts/summarize_eval600.py",
+      "bytes": 1219,
+      "sha256": "ff21644edfce0269b98aa4bea2a3088c49f13140428e90940a8b43c4442f33ff"
+    },
+    {
+      "path": "own/scripts/test_reward_rounds.py",
+      "bytes": 12086,
+      "sha256": "555ec98f8ce91255dd2eb6ec6f1dcdbd52e2ce9af7798adce4381ba79bcb4e90"
+    },
+    {
+      "path": "own/slime_adapters/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "own/slime_adapters/round_reward.py",
+      "bytes": 5538,
+      "sha256": "3f867e57ba0ef38335cbc0c6d64b90e498e4e73b1ee2ec9d5519a47d2e0d366b"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 375,
+      "sha256": "b2b900a685ae54ec53ea86e9bbaa85a429975844d809c87f7fa0e66ba8b93d2d"
+    }
+  ]
+}
