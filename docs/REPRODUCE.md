@@ -2,6 +2,7 @@
 
 ## CPU：公式与历史数值
 
+    python3 -m pip install .
     python3 -m own.scripts.test_reward_rounds --skip-rollout
     python3 -m own.scripts.run_reward_qa --output-dir outputs/qa
     python3 -m own.scripts.run_reward_round_comparison --output-dir outputs/comparison

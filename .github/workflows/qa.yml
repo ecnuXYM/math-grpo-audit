@@ -8,6 +8,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - run: python -m pip install .
       - run: python -m own.scripts.test_reward_rounds --skip-rollout
       - run: python -m own.scripts.run_reward_qa --output-dir outputs/qa
       - run: python -m own.scripts.run_reward_round_comparison --output-dir outputs/comparison

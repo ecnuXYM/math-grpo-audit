@@ -61,9 +61,11 @@ flowchart LR
 
 ## 快速运行
 
-Python 3.10+。核心 Reward 与以下 CPU 检查无需模型和训练框架：
+Python 3.10+。先安装包及 SymPy 依赖；以下 CPU 检查无需模型和训练框架：
 
 ```bash
+python3 -m pip install .
+
 # 固定案例演示与 21 个回归检查
 python3 -m own.scripts.demo
 python3 -m own.scripts.test_reward_rounds --skip-rollout

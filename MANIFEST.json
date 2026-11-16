@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".github/workflows/qa.yml",
-      "bytes": 515,
-      "sha256": "5ad48f8551e6b0e914b6dbde0492545f4a02901279a090cca28ac4e4286ac186"
+      "bytes": 552,
+      "sha256": "ff86f1e1f3c5aabe2f355f59e86196577619c5e69097b27b226cd84cef464ae6"
     },
     {
       "path": ".gitignore",
@@ -13,8 +13,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4219,
-      "sha256": "b4d8ab10b717b996cc1b6e02f8dec083bc2aacedcdf111f40bab81efb1087d56"
+      "bytes": 4259,
+      "sha256": "1238882f9612f343aaedabed1aae9909ae43058f3754b7595f85885bbdb35847"
     },
     {
       "path": "docs/04_data_and_experiment_decisions.md",
@@ -38,8 +38,8 @@
     },
     {
       "path": "docs/REPRODUCE.md",
-      "bytes": 1428,
-      "sha256": "4f7942fa4ed5db1c293c236a656cffe9bd09b876bfe7ec775f6edabeb5243c71"
+      "bytes": 1457,
+      "sha256": "764ee3a82ace7e474e119522056801dc070aa276486d740a6716ef83b5be52f4"
     },
     {
       "path": "evidence/reward_qa_round5_2026-07-11/reward_qa_cases.csv",
@@ -208,8 +208,8 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 375,
-      "sha256": "b2b900a685ae54ec53ea86e9bbaa85a429975844d809c87f7fa0e66ba8b93d2d"
+      "bytes": 391,
+      "sha256": "0ddc566bf226ac123f42c11e00cf291816ea898ef52219ccb36039d6d12e550f"
     }
   ]
 }
